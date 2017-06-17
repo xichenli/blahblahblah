@@ -5,7 +5,7 @@ class BlaBla {
 public:
     /// construct blah-blah
     BlaBla(int i) : _i(i) {
-      for(int k=1; k<i+1; ++k){
+      for(int k = 0; k<i; ++k) {
         // do nothing
       }
     }
