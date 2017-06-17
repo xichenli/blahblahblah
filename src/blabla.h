@@ -4,7 +4,11 @@
 class BlaBla {
 public:
     /// construct blah-blah
-    BlaBla(int i) : _i(i) {}
+    BlaBla(int i) : _i(i) {
+      for(int k = 0; k<i; ++k) {
+        // do nothing
+      }
+    }
     /// compute some nonsense
     void something();
 private:
