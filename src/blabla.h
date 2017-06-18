@@ -1,5 +1,5 @@
 
-#pargma once
+#pragma once
 
 class BlaBla {
 public:
