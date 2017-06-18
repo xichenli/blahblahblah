@@ -1,6 +1,4 @@
 
 #include "blabla.h"
 
-int main() {
-    BlaBla b(1);
-}
+int main() { BlaBla b(1); }
